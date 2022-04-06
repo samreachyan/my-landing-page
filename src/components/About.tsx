@@ -32,7 +32,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="../assets/code.png"
+            src={require('../assets/code.png')}
           />
         </div>
       </div>
